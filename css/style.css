@@ -481,10 +481,6 @@ font-size: 16px;
     border-color: transparent;
 }
 /********************************* FOOTER ***************************************/
-footer {
-    background: url(../images/footer-bg1.jpg) no-repeat center;
-    background-size: cover;
-}
 
 .footer-col {
     margin-top: 50px;
