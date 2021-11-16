@@ -26,7 +26,6 @@
     
     <title>School TimeTable Software | School TimeTable Software</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <script src="https://www.google.com/recaptcha/api.js?render=6Leew_4aAAAAAOyhbCJaNfBmDfkQOeGgiUfK1NVf"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
@@ -49,7 +48,7 @@
                     <a class="nav-link" title="School TimeTable Software Work" href="#works">How To Work?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" title="School TimeTable Software" href="http://www.schoolsoftwares.com/timetable_Software_download.html" target="_blank">Buy Now</a>
+                    <a class="nav-link" title="School TimeTable Software" href="https://www.schoolsoftwares.com/timetable_software_overview.html" target="_blank">Buy Now</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" title="School TimeTable Software Helps" href="#helps">Helps</a>
@@ -270,7 +269,8 @@
                   <h3>ENQUIRY FORM</h3>
                 <div class="row justify-content-center">
                     <div class="col-md-8">
-                        <form action="https://e.genuineinfotech.com" method="POST">
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSezxJndtmCF8mU6cUlXQrASbrqfXMPcBw57F2XwjYsQl3PYgA/viewform?embedded=true&entry.905373167=Time Table" width="100%" height="1489" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        <!--form action="" method="POST">
                             <div class="form-group row">
                                 <label for="inputyourname" class="col-sm-4 col-form-label">Your Name [ आपका नाम ] *</label>
                                 <div class="col-sm-8">
@@ -328,7 +328,7 @@
                                     <input type="text" name="_gotcha" style="display:none" />
                                 </div>
                             </div>
-                        </form>
+                        </form-->
                     </div>
                 </div>
             </div>
@@ -444,15 +444,7 @@
         // SCREENSHOTS
         $(document).ready(function() {
             
-            $( "input[name='email']" ).on("change",function(){
-                $("input[name='_gotcha']").val("");        
-                grecaptcha.ready(function() {
-                 grecaptcha.execute('6Leew_4aAAAAAOyhbCJaNfBmDfkQOeGgiUfK1NVf', {action: 'submit'}).then(function(token) {
-                     /*console.log( "token \n " + token);*/
-                     $("input[name='_gotcha']").val(token);
-                 });
-                });      
-            });
+            
             $('#owl-carousel').owlCarousel({
                 loop: true,
                 margin: 10,
